@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Produk Muslim</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        @media (min-width: 1200px) {
+    .container{
+        max-width:600px;
+    }
+}
+
+            #myUL {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            #myUL li a {
+
+                text-decoration: none;
+
+            }
+
+            #myUL li a:hover:not(.header) {
+                background-color: #eee;
+            }
+
+            .filterDiv {
+                border: 1px solid #ddd;
+                margin-top: -1px;
+                /* Prevent double borders */
+                background-color: #f6f6f6;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px;
+                color: black;
+                display: none;
+            }
+
+            .show {
+                display: block;
+            }
+
+           
+
+            /*DROPDOWN*/
+
+
+
+
+            #myInput:focus {
+                outline: 3px solid #ddd;
+            }
+
+            .dropdown {
+                margin:20px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f6f6f6;
+                min-width: 230px;
+                overflow: auto;
+                border: 1px solid #ddd;
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown a:hover {
+                background-color: #ddd;
+            }
+
+            .show {
+                display: block;
+            }
+   
+            img{
+                width:200px;
+            }
+    </style>
+
+
+  </head>
+  <body>
+    <div class="d-flex justify-content-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        
+
+        <img src="LogoMuslim.svg" class="rounded" alt="Cinque Terre" >
+        
+ 
+</div>
+
+<div class="container ">
+         
+  <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+  
+        <div class="form-group">
+        <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+        <div>
+                
+        <div class="dropdown ">
+            <button onclick="myFunction2()" class="dropbtn btn btn-secondary dropdown-toggle">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content ">
+                <a href="#about" class="btn active" onclick="filterSelection('all')"> Show all</a>
+                <a href="#base" class="btn" onclick="filterSelection('cars')"> Cars</a>
+                <a href="#blog" class="btn" onclick="filterSelection('animals')"> Animals</a>
+                <a href="#contact" class="btn" onclick="filterSelection('fruits')"> Fruits</a>
+                <a href="#custom" class="btn" onclick="filterSelection('colors')"> Colors</a>
+
+            </div>
+
+
+        </div>
+    
+
+
+        <ul class="list-group" id="myUL">
+
+            <li ><a href="#" class="list-group-item filterDiv cars">BMW</a></li>
+
+
+            <li><a href="#" class="list-group-item filterDiv colors fruits">Orange</a></li>
+            <li><a href="#" class="list-group-item filterDiv cars">Volvo</a></li>
+            <li><a href="#" class="list-group-item filterDiv colors">Red</a></li>
+            <li><a href="#" class="list-group-item filterDiv cars animals">Mustang</a></li>
+            <li><a href="#" class="list-group-item filterDiv colors">Blue</a></li>
+            <li><a href="#" class="list-group-item filterDiv animals">Cat</a></li>
+            <li><a href="#" class="list-group-item filterDiv animals">Dog</a></li>
+            <li><a href="#" class="list-group-item filterDiv fruits">Melon</a></li>
+            <li><a href="#" class="list-group-item filterDiv fruits animals">Kiwi</a></li>
+            <li><a href="#" class="list-group-item filterDiv fruits">Banana</a></li>
+            <li><a href="#" class="list-group-item filterDiv fruits">Lemon</a></li>
+            <li><a href="#" class="list-group-item filterDiv animals">Cow</a></li>
+
+        </ul>
+        <script>
+                function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        txtValue = a.textContent || a.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            li[i].style.display = "";
+                        } else {
+                            li[i].style.display = "none";
+                        }
+                    }
+                }
+        
+                filterSelection("all")
+        
+                function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("filterDiv");
+                    if (c == "all") c = "";
+                    for (i = 0; i < x.length; i++) {
+                        w3RemoveClass(x[i], "show");
+                        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                    }
+                }
+        
+                function w3AddClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        if (arr1.indexOf(arr2[i]) == -1) {
+                            element.className += " " + arr2[i];
+                        }
+                    }
+                }
+        
+                function w3RemoveClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        while (arr1.indexOf(arr2[i]) > -1) {
+                            arr1.splice(arr1.indexOf(arr2[i]), 1);
+                        }
+                    }
+                    element.className = arr1.join(" ");
+                }
+        
+                // Add active class to the current button (highlight it)
+                var btnContainer = document.getElementById("myBtnContainer");
+                var btns = btnContainer.getElementsByClassName("btn");
+                for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function () {
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
+                    });
+                }
+        
+        
+                /* When the user clicks on the button,
+                toggle between hiding and showing the dropdown content */
+                function myFunction2() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+            </script>
+
+</div>
+
+
+
+  
+
+</body>
+</html>

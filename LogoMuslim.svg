@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="199" viewBox="0 0 318 199">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #111010;
+        font-family: Rockwell;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+      }
+    </style>
+  </defs>
+  <text id="Produk" class="cls-1" x="3" y="102">Produk</text>
+  <text id="Muslim" class="cls-1" x="122" y="155">Muslim</text>
+  <image y="185" width="102" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAADCAYAAABh5nqLAAAAH0lEQVQ4jWMUFBD4zzAKBh1gGo2SwQlGI2YwAgYGBgDAKgE2kKZ45QAAAABJRU5ErkJggg=="/>
+  <image x="207" y="186" width="110" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAADCAYAAAByMTp/AAAAH0lEQVQ4jWMUFBD4zzAKhhxgGo2yoQlGI24oAgYGBgAzuQE2d09/JwAAAABJRU5ErkJggg=="/>
+  <image id="black-star-stars-stars-black-star-stars-and-black-354170" x="150" y="6" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABqklEQVRYhcWWSytFURTHf666EkphcEvyyCtkIMpIMTNTMhAjJkpkYKAUH0BJmSl1h7cYGSgxMpF8gdsdMKAQMqGbd6v2rdN1Xnfv8/jXqjNYe/1/e5+z1tkYqgroMS1iolngNU6Ac+AXmIjDvFeZS2TjADiyAEiMRmneWGQucRklQNoGQGIgCvM6B3OJsygAtl0AJDrCBsh7AByGYdoADAJ7HuaFmFJtWu1VuAwoB76BJJACmoBOS7QDLUCFBrhMyWsgp2ZFVj3fAvfAjyQNATcq2c/ugogv4BPIyO6fgXpgTOvl6CmhTn/BunoxwhN4VMPsn5YjMH9xMi9oJUTzN6DZz0tbC8H8Hegq5YtZD9A8r+ZCydoMwPwJ6DdpmQNDgEm34gkfAEkTeqDSBECGxbAhgOsdwQsgpaakibpNANoMzUV9JgBarVOkwh9WC8Crfa6AXeDDI6/VD6mdTh1a6wFYteTLDvddWnFeFyBnU2wLqHHIlxM7tlmzo2NeW1QkrW5JfjQOXFjWat2WZ9TiE2BEpwAwB9ypOq4DyU7TwJKmsVVivGH7Gwb+ACrqIsYDuEqEAAAAAElFTkSuQmCC"/>
+  <image x="3" y="28" width="116" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAADCAYAAABCvSteAAAAH0lEQVQ4jWMUFBD4zzAKhg1gGo3K4QVGI3Q4AQYGBgCKWQE2JXfZkAAAAABJRU5ErkJggg=="/>
+  <image x="182" y="28" width="136" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAADCAYAAABIzUdJAAAAI0lEQVQ4jWMUFBD4zzAKRgEOwDQaMKMAHxhNIKMAN2BgYAAAqygBNgX3CtcAAAAASUVORK5CYII="/>
+  <image id="crescent-moon-png-672710" x="123" y="6" width="47" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAACrklEQVRogdWZTagNURzAf++SryK8l69EepKPFFKEIsmzouRjwWOjnrJ4G8JCSlkoZWehFKm3Y6cnKQnPwkIpX4UNIp95iiTv6j/95zamMzPnzL135syv/t26Z845v3PunDN3/mcU+VgL7AS+AF9ztlE4MtgB4CmwuSrSqOxP4DvQ5YGPNaeAOvCtIr4Nrqn4X2CKJ05W3FFxiY0V8G1wKyJ+yRMnKy5GxGWRjq2Ac8C+iLjECQ+crOiMif8GJlTAO+B6TP6yB05WrIqJS2yqgHfAvZj4D2C0B16ZLDLM+k3Pnanp50FD2aOCXZwJ5XcYKr7y2DtA5JcBswxlH0rwcULkNyRUGPbUuYHIL08oGynBxwmRn59QYZynzg1EfkZC2dQSfJwQ+ckJFeZ46txA5McklC0uwceZYcPTVeJFFeTfJ8hLzPXAL5GaJo6S2O6f8v8Mpsz8E59E49Q0+5WELNrV3tga2JUy8xJD3hlH6MqQl+jxxtbA3Qz5T94Zw8wwxd0BbEu5UDIIC4GrBYllIWuxN7xGkkq/LG6ffk/knwNbo1+ctpCX2F2ec8AD01veeE0y2Qyg19xu2xnQ/rtNHR2wlJc4WaD0JOCG9nsu7cIhhwEMFvD/ZwvwVvt7k3Vxp8PtU9eFfrgNCapuTa1H+1piU3G9g3wYr4Ejsv82Kb0SOK8nMdH297o0sifHAOqaz5ejoD5gacrLToi8ya0DjhtSjmEcNVXsyGhYRnvFZcQGJP/zEvioZ7Yyo/JcmQZMBxYAE1PqHwPO5O28R5OueX6FZmN/kxMXIC/jtwuUfgysaIV4lH49RG6X9Iie+bYNuU/PtngQf4ALKQmwliNJqUMpO4RNPNQFOTuPXNZuY8s8YI3ep7I9yl4vu4n8XxLkofcZeAc809z//abSK8A/LvdnwieYj/YAAAAASUVORK5CYII="/>
+  <text id="Malaysia" class="cls-2" x="105" y="195">Malaysia</text>
+</svg>
